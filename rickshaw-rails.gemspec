@@ -20,7 +20,7 @@ Gem::Specification.new do |s|
   s.test_files    = s.files.grep(%r{^(test|spec|features)/})
   s.require_paths = %w{lib}
 
-  s.add_development_dependency 'bower'
+  s.add_development_dependency 'bower', '~> 0'
   s.add_development_dependency 'bundler', '~> 1.6'
-  s.add_development_dependency 'rake'
+  s.add_development_dependency 'rake', '~> 0'
 end
