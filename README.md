@@ -1,12 +1,13 @@
 # RickshawRails
 
-This gem packages the [Rickshaw](http://code.shutterstock.com/rickshaw/) Javascript graphing library for easy use with the Rails 3.1+ asset pipleine.
+This gem packages the [Rickshaw](http://code.shutterstock.com/rickshaw/)
+Javascript graphing library for easy use with the Rails 3.1+ asset pipleine.
 
 ## Installation
 
 Add this line to your application's Gemfile:
 
-    gem 'rickshaw_rails'
+    gem 'rickshaw-rails'
 
 And then execute:
 
@@ -14,28 +15,27 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install rickshaw_rails
+    $ gem install rickshaw-rails
 
 ## Usage
 
 Add this line to your application.css:
 
-    *= require rickshaw
-    
-Add this line to your application.js (This includes both rickshaw and d3.js):
+    *= require rickshaw-rails
 
-    //= require rickshaw_with_d3
-    
 You can also require d3 and rickshaw seperately if you want:
 
-    //= require d3.v2
-    //= require rickshaw
+    //= require rickshaw-rails
 
 You can now use rickshaw in your app.
 
 ## Version
 
-As of February 27th 2013, the version of this gem has been changed to reflect the rickshaw version numbers.
+The version numbers follow the versionning of the library [Rickshaw](http://code.shutterstock.com/rickshaw/)
+
+## Credits
+
+This gem was forked from [logical42/rickshaw_rails](https://github.com/logical42/rickshaw_rails).
 
 ## Contributing
 
