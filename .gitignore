@@ -18,11 +18,19 @@ Gemfile.lock
 # Ignore package files.
 pkg
 
-# Ignore all tempfiles.
+# Ignore all log files and tempfiles.
+log/*.log
 /tmp
 
 # Ignore Mac files.
 .DS_Store
+
+# Ignoe test files.
+test/dummy/db/*.sqlite3
+test/dummy/db/*.sqlite3-journal
+test/dummy/log/*.log
+test/dummy/tmp/
+test/dummy/.sass-cache
 
 # Ignore Bower packages.
 /vendor/assets/rickshaw-rails/d3/*
