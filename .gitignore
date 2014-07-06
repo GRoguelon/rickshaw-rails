@@ -25,12 +25,15 @@ log/*.log
 # Ignore Mac files.
 .DS_Store
 
-# Ignoe test files.
+# Ignore test files.
 test/dummy/db/*.sqlite3
 test/dummy/db/*.sqlite3-journal
 test/dummy/log/*.log
 test/dummy/tmp/
 test/dummy/.sass-cache
+
+# Coveralls files.
+/coverage
 
 # Ignore Bower packages.
 /vendor/assets/rickshaw-rails/d3/*

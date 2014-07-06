@@ -1,6 +1,6 @@
 # RickshawRails
 
-[![Gem Version](https://badge.fury.io/rb/rickshaw-rails.svg)](http://badge.fury.io/rb/rickshaw-rails) [![Dependency Status](https://gemnasium.com/GRoguelon/rickshaw-rails.svg)](https://gemnasium.com/GRoguelon/rickshaw-rails) [![Build Status](https://travis-ci.org/GRoguelon/rickshaw-rails.svg?branch=master)](https://travis-ci.org/GRoguelon/rickshaw-rails)
+[![Gem Version](https://badge.fury.io/rb/rickshaw-rails.svg)](http://badge.fury.io/rb/rickshaw-rails) [![Dependency Status](https://gemnasium.com/GRoguelon/rickshaw-rails.svg)](https://gemnasium.com/GRoguelon/rickshaw-rails) [![Build Status](https://travis-ci.org/GRoguelon/rickshaw-rails.svg?branch=master)](https://travis-ci.org/GRoguelon/rickshaw-rails) [![Coverage Status](https://coveralls.io/repos/GRoguelon/rickshaw-rails/badge.png?branch=master)](https://coveralls.io/r/GRoguelon/rickshaw-rails?branch=master)
 
 This gem packages the [Rickshaw](http://code.shutterstock.com/rickshaw/)
 Javascript graphing library for easy use with the Rails 3.1+ asset pipleline.
