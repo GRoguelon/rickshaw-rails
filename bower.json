@@ -3,8 +3,8 @@
     "Geoffrey Roguelon <geoffrey.roguelon@gmail.com>"
   ],
   "dependencies": {
-    "d3": "~3.3.6",
-    "rickshaw": "~1.4.6"
+    "d3": "~3.3.13",
+    "rickshaw": "~1.5.0"
   },
   "description": "Rickshaw, a javascript graphing library based on d3 available in Rails assets.",
   "homepage": "https://github.com/GRoguelon/rickshaw_rails",
@@ -22,5 +22,5 @@
   ],
   "name": "rickshaw-rails",
   "private": true,
-  "version": "1.4.6"
+  "version": "1.5.0"
 }
