@@ -17,7 +17,7 @@ Gem::Specification.new do |s|
   s.files      = `git ls-files`.split($/)
   s.test_files = Dir['test/**/*']
 
-  s.add_dependency 'rails', '>= 3.1.0'
+  s.add_dependency 'rails', '>= 3.2', '< 4.2'
 
   s.add_development_dependency 'coveralls'
   s.add_development_dependency 'minitest', '~> 5.3.5'
